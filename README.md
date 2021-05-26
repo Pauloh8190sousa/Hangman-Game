@@ -1,7 +1,6 @@
 # Hangman-Game
 ## Demonstração
-![Alt text](https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif Demostração do jogo da forca")
-
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
 ## Projeto Finalizado
 - [x] Lógica do game - concluido
 - [x] Interface e Estilização com HTML e CSS - concluido 
