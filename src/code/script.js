@@ -29,20 +29,34 @@ const categorias = {
     profissao : ["engenheiro", "programação", "administração","médico"],
     veiculo : ["carro", "moto", "bicileta","avião"]
 };
-
+function numAleatorio(size){
+    return Math.floor(Math.random()*size);
+}
 function listCategory(){
     return Object.keys(categorias);
 }
 
 function categoryRandom(){
     const arrayCategory = listCategory();
-    let indiceCategory = Math.floor(Math.random()*arrayCategory.length);
+    let indiceCategory = numAleatorio(arrayCategory.length);
     return arrayCategory[indiceCategory];
 
 }
 function exibirCategory(){
     categoria.innerHTML = categoryRandom();
 
+}
+
+function definirPalavraChave(){
+    const listPalavras = categorias[categoria.innerHTML];
+    let indicePalavraChave = numAleatorio(listPalavras.length);
+    palavraProposta = listPalavras[indicePalavraChave];
+}
+function ocultarPalavra(){
+    //Falta acabar esse trecho
+}
+function exibirPalavraInterface(palavraEntrada){
+    palavraInterface.innerHTML = palavraEntrada;
 }
 /*
 Recebe o evento do teclado e passa apenas o valor da letra para a função tentativa
