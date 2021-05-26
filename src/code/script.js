@@ -51,9 +51,14 @@ function definirPalavraChave(){
     const listPalavras = categorias[categoria.innerHTML];
     let indicePalavraChave = numAleatorio(listPalavras.length);
     palavraProposta = listPalavras[indicePalavraChave];
+    ocultarPalavra();
 }
 function ocultarPalavra(){
-    //Falta acabar esse trecho
+    let palavraOculta = "";
+    for(let i = 0; i<palavraProposta.length; i++){
+        palavraOculta += "-";
+    }
+    exibirPalavraInterface(palavraOculta);
 }
 function exibirPalavraInterface(palavraEntrada){
     palavraInterface.innerHTML = palavraEntrada;
@@ -64,7 +69,9 @@ Recebe o evento do teclado e passa apenas o valor da letra para a função tenta
 function retornaLetra(e){ 
     tentativa(e.key);
 }
-
+function tentativa(keyLetra){
+    //Falta terminar a lógica
+}
 /*
 Desenha a parte do corpo corrente
 */
@@ -104,6 +111,7 @@ function iniciaJogo(){
     letrasErradas.innerHTML = "Letras erradas: ";
     ocultaBoneco();
     exibirCategory();
+    definirPalavraChave();
     window.addEventListener("keypress", retornaLetra);
 }
 
