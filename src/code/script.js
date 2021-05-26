@@ -27,7 +27,8 @@ const categorias = {
     animal : ["cachorro","gato","gamba"],
     cores : ["branco","preto","azul","roxo","amarelo","cinza","vinho","verde"],
     profissao : ["engenheiro", "programação", "administração","médico"],
-    veiculo : ["carro", "moto", "bicileta","avião"]
+    veiculo : ["carro", "moto", "bicicleta","avião"],
+    marca : ["avon","lacoste","nike","lenovo","microsoft","apple","google","netflix","fanta","mercedes"]
 };
 function numAleatorio(size){
     return Math.floor(Math.random()*size);
