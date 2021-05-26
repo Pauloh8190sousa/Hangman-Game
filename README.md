@@ -1,6 +1,6 @@
 # Hangman-Game
 ## Demonstração
-![alt text](https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif Demostração do jogo da forca")
+![Alt text](https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif Demostração do jogo da forca")
 
 ## Projeto Finalizado
 - [x] Lógica do game - concluido
