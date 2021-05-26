@@ -7,4 +7,4 @@
 ## Aplicação
 **Para poder se divertir e jogar o Hangman é so abrir o html pageHangmanGame e aproveitar**
 ## Demonstração
-<img src="https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif" width="40" height="40" />
+<img src="https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif" width="800" height="600" />
