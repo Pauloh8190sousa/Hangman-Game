@@ -70,7 +70,24 @@ function retornaLetra(e){
     tentativa(e.key);
 }
 function tentativa(keyLetra){
-    //Falta terminar a lógica
+    if(palavraProposta.includes(keyLetra)){
+        atualizarPalavraInterface(keyLetra);
+    }else{
+
+    }
+}
+function atualizarPalavraInterface(letra){
+    let aux = "";
+    for(let i = 0; i<palavraProposta.length; i++){
+        if(palavraProposta[i] === letra){
+            aux+=letra;
+        }else if(palavraInterface.innerHTML[i] != "-"){
+            aux+= palavraInterface.innerHTML[i];
+        }else{
+            aux+="-";
+        }
+    }
+    exibirPalavraInterface(aux);
 }
 /*
 Desenha a parte do corpo corrente
