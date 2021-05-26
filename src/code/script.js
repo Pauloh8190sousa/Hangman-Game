@@ -1,3 +1,4 @@
+
 /* Elemento HTML referente a categoria */
 const categoria = document.querySelector("#category");
 /* Elemento HTML referente a lista das letras erradas*/
@@ -21,7 +22,28 @@ const numTentativas = 7;
 /* Valor para opacidade dos olhos */
 const opacidadeOlhos = 0.3;
 
+const categorias = {
+    frutas : ["abacaxi", "maça", "banana"],
+    animal : ["cachorro","gato","gamba"],
+    cores : ["branco","preto","azul","roxo","amarelo","cinza","vinho","verde"],
+    profissao : ["engenheiro", "programação", "administração","médico"],
+    veiculo : ["carro", "moto", "bicileta","avião"]
+};
 
+function listCategory(){
+    return Object.keys(categorias);
+}
+
+function categoryRandom(){
+    const arrayCategory = listCategory();
+    let indiceCategory = Math.floor(Math.random()*arrayCategory.length);
+    return arrayCategory[indiceCategory];
+
+}
+function exibirCategory(){
+    categoria.innerHTML = categoryRandom();
+
+}
 /*
 Recebe o evento do teclado e passa apenas o valor da letra para a função tentativa
 */
@@ -66,6 +88,8 @@ function iniciaJogo(){
     indiceBoneco = 0;
     letrasErradasArray = [];
     letrasErradas.innerHTML = "Letras erradas: ";
+    ocultaBoneco();
+    exibirCategory();
     window.addEventListener("keypress", retornaLetra);
 }
 
