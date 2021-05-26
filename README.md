@@ -1,6 +1,6 @@
 # Hangman-Game
 ## Demonstração
-<img src="https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif" width="800" height="400"/>
+ <img src="https://github.com/Pauloh8190sousa/Hangman-Game/blob/main/demonstration/example%20game.gif" width="800" height="400"/>
 ## Projeto Finalizado
 - [x] Lógica do game - concluido
 - [x] Interface e Estilização com HTML e CSS - concluido 
