@@ -24,11 +24,11 @@ const opacidadeOlhos = 0.3;
 
 const categorias = {
     frutas : ["abacaxi", "maça", "banana"],
-    animal : ["cachorro","gato","gamba","leão","rato","galinha","boi","vaca","tigre","macaco","baleia"],
+    animal : ["cachorro","gato","gamba","leão","rato","galinha","boi","vaca","tigre","macaco","baleia","pato","pombo","coruja"],
     cores : ["branco","preto","azul","roxo","amarelo","cinza","vinho","verde","vermelho","marrom"],
     profissao : ["engenheiro", "programação", "administração","médico"],
     veiculo : ["carro", "moto", "bicicleta","avião"],
-    marca : ["avon","lacoste","nike","lenovo","microsoft","apple","google","netflix","fanta","mercedes"],
+    marca : ["avon","lacoste","nike","lenovo","microsoft","apple","google","netflix","fanta","mercedes","samsung","motorola","udemy","lg"],
     eletronico: ["tv","dvd","som","notebook","celular","microondas","ventilador"],
     moveis: ["cadeira","cama","armario","sofá","mesa","fogão"],
     esportes: ["futebol","handebol","tênis","basquete","corrida"],
