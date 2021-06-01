@@ -32,7 +32,9 @@ const categorias = {
     eletronico: ["tv","dvd","som","notebook","celular","microondas","ventilador"],
     moveis: ["cadeira","cama","armario","sofá","mesa","fogão"],
     esportes: ["futebol","handebol","tênis","basquete","corrida"],
-    jogo: ["xadrez","damas","vinte um","poker"]
+    jogo: ["xadrez","damas","vinte um","poker"],
+    paises: ["china","rússia","argentina","venezuela"],
+    pontos_turisticos: ["bigbang"]
 };
 function numAleatorio(size){
     return Math.floor(Math.random()*size);
