@@ -34,7 +34,7 @@ const categorias = {
     esportes: ["futebol","handebol","tênis","basquete","corrida"],
     jogo: ["xadrez","damas","vinte um","poker"],
     paises: ["china","rússia","argentina","venezuela"],
-    pontos_turisticos: ["bigbang"]
+    pontos_turisticos: ["bigbang","corcovado","Coliseu","copacabana"]
 };
 function numAleatorio(size){
     return Math.floor(Math.random()*size);
